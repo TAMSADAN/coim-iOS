@@ -1,0 +1,6 @@
+framework module Pods_Enaco_EnacoUITests {
+  umbrella header "Pods-Enaco-EnacoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

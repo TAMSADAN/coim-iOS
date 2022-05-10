@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F4337798D56135EE49FA62 /* Pods_EnacoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA5899531B08683EA31DE67 /* Pods_EnacoTests.framework */; };
+		1844ACAF917D3277C76D1D00 /* Pods_Enaco_EnacoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53EC09D7B3E49B08BD88EDFF /* Pods_Enaco_EnacoUITests.framework */; };
+		7059747B282A275C00DCDFA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7059747A282A275C00DCDFA6 /* AppDelegate.swift */; };
+		7059747D282A275C00DCDFA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7059747C282A275C00DCDFA6 /* SceneDelegate.swift */; };
+		70597484282A275D00DCDFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70597483282A275D00DCDFA6 /* Assets.xcassets */; };
+		70597487282A275D00DCDFA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70597485282A275D00DCDFA6 /* LaunchScreen.storyboard */; };
+		70597492282A275D00DCDFA6 /* EnacoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70597491282A275D00DCDFA6 /* EnacoTests.swift */; };
+		7059749C282A275D00DCDFA6 /* EnacoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7059749B282A275D00DCDFA6 /* EnacoUITests.swift */; };
+		7059749E282A275D00DCDFA6 /* EnacoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7059749D282A275D00DCDFA6 /* EnacoUITestsLaunchTests.swift */; };
+		705974AB282A27B200DCDFA6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705974AA282A27B200DCDFA6 /* MainViewController.swift */; };
+		705974B1282A298C00DCDFA6 /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705974B0282A298C00DCDFA6 /* ExchangeViewController.swift */; };
+		705974B5282A2A3800DCDFA6 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705974B4282A2A3800DCDFA6 /* HistoryViewController.swift */; };
+		705974B8282A2B6500DCDFA6 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705974B7282A2B6500DCDFA6 /* StoreViewController.swift */; };
+		705974BC282A2C7300DCDFA6 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705974BB282A2C7300DCDFA6 /* Const.swift */; };
+		705974C1282A2F9B00DCDFA6 /* StoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705974C0282A2F9B00DCDFA6 /* StoreTableViewCell.swift */; };
+		ABBC75E8CBAAF3B22717117C /* Pods_Enaco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC557F2D40917FF28A2884CD /* Pods_Enaco.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7059748E282A275D00DCDFA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7059746F282A275C00DCDFA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70597476282A275C00DCDFA6;
+			remoteInfo = Enaco;
+		};
+		70597498282A275D00DCDFA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7059746F282A275C00DCDFA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70597476282A275C00DCDFA6;
+			remoteInfo = Enaco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BA5899531B08683EA31DE67 /* Pods_EnacoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnacoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FC9E9052F7288C0A2B02C8 /* Pods-EnacoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnacoTests.debug.xcconfig"; path = "Target Support Files/Pods-EnacoTests/Pods-EnacoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AB0A541F8C5037C4681D191 /* Pods-Enaco-EnacoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enaco-EnacoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Enaco-EnacoUITests/Pods-Enaco-EnacoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		53EC09D7B3E49B08BD88EDFF /* Pods_Enaco_EnacoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Enaco_EnacoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEBCEB660BA529E91D78105 /* Pods-Enaco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enaco.release.xcconfig"; path = "Target Support Files/Pods-Enaco/Pods-Enaco.release.xcconfig"; sourceTree = "<group>"; };
+		70597477282A275C00DCDFA6 /* Enaco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enaco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7059747A282A275C00DCDFA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7059747C282A275C00DCDFA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		70597483282A275D00DCDFA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70597486282A275D00DCDFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70597488282A275D00DCDFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7059748D282A275D00DCDFA6 /* EnacoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnacoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70597491282A275D00DCDFA6 /* EnacoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnacoTests.swift; sourceTree = "<group>"; };
+		70597497282A275D00DCDFA6 /* EnacoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnacoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7059749B282A275D00DCDFA6 /* EnacoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnacoUITests.swift; sourceTree = "<group>"; };
+		7059749D282A275D00DCDFA6 /* EnacoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnacoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		705974AA282A27B200DCDFA6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		705974B0282A298C00DCDFA6 /* ExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewController.swift; sourceTree = "<group>"; };
+		705974B4282A2A3800DCDFA6 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		705974B7282A2B6500DCDFA6 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		705974BB282A2C7300DCDFA6 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		705974C0282A2F9B00DCDFA6 /* StoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewCell.swift; sourceTree = "<group>"; };
+		78819E92C28A5D06A462899F /* Pods-Enaco-EnacoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enaco-EnacoUITests.release.xcconfig"; path = "Target Support Files/Pods-Enaco-EnacoUITests/Pods-Enaco-EnacoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		813C4DB44BCD63C0251EBFA1 /* Pods-Enaco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enaco.debug.xcconfig"; path = "Target Support Files/Pods-Enaco/Pods-Enaco.debug.xcconfig"; sourceTree = "<group>"; };
+		AC557F2D40917FF28A2884CD /* Pods_Enaco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Enaco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B01AA55CA122EEC4B47E39 /* Pods-EnacoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnacoTests.release.xcconfig"; path = "Target Support Files/Pods-EnacoTests/Pods-EnacoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70597474282A275C00DCDFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBC75E8CBAAF3B22717117C /* Pods_Enaco.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7059748A282A275D00DCDFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F4337798D56135EE49FA62 /* Pods_EnacoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70597494282A275D00DCDFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1844ACAF917D3277C76D1D00 /* Pods_Enaco_EnacoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7059746E282A275C00DCDFA6 = {
+			isa = PBXGroup;
+			children = (
+				70597479282A275C00DCDFA6 /* Enaco */,
+				70597490282A275D00DCDFA6 /* EnacoTests */,
+				7059749A282A275D00DCDFA6 /* EnacoUITests */,
+				70597478282A275C00DCDFA6 /* Products */,
+				B385546B092A3F7198B67734 /* Pods */,
+				F7FE4CBD3AFED24BCD9F70C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70597478282A275C00DCDFA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70597477282A275C00DCDFA6 /* Enaco.app */,
+				7059748D282A275D00DCDFA6 /* EnacoTests.xctest */,
+				70597497282A275D00DCDFA6 /* EnacoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70597479282A275C00DCDFA6 /* Enaco */ = {
+			isa = PBXGroup;
+			children = (
+				705974B9282A2C4F00DCDFA6 /* Resource */,
+				705974AC282A28D200DCDFA6 /* View */,
+				705974AD282A28D800DCDFA6 /* ViewController */,
+				7059747A282A275C00DCDFA6 /* AppDelegate.swift */,
+				7059747C282A275C00DCDFA6 /* SceneDelegate.swift */,
+				70597483282A275D00DCDFA6 /* Assets.xcassets */,
+				70597485282A275D00DCDFA6 /* LaunchScreen.storyboard */,
+				70597488282A275D00DCDFA6 /* Info.plist */,
+			);
+			path = Enaco;
+			sourceTree = "<group>";
+		};
+		70597490282A275D00DCDFA6 /* EnacoTests */ = {
+			isa = PBXGroup;
+			children = (
+				70597491282A275D00DCDFA6 /* EnacoTests.swift */,
+			);
+			path = EnacoTests;
+			sourceTree = "<group>";
+		};
+		7059749A282A275D00DCDFA6 /* EnacoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7059749B282A275D00DCDFA6 /* EnacoUITests.swift */,
+				7059749D282A275D00DCDFA6 /* EnacoUITestsLaunchTests.swift */,
+			);
+			path = EnacoUITests;
+			sourceTree = "<group>";
+		};
+		705974AC282A28D200DCDFA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				705974BD282A2DED00DCDFA6 /* Store */,
+				705974BF282A2DF800DCDFA6 /* History */,
+				705974BE282A2DF300DCDFA6 /* Exchange */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		705974AD282A28D800DCDFA6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				705974AE282A290000DCDFA6 /* Main */,
+				705974B6282A2B3E00DCDFA6 /* Store */,
+				705974B2282A2A2A00DCDFA6 /* History */,
+				705974AF282A295C00DCDFA6 /* Exchange */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		705974AE282A290000DCDFA6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				705974AA282A27B200DCDFA6 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		705974AF282A295C00DCDFA6 /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				705974B0282A298C00DCDFA6 /* ExchangeViewController.swift */,
+			);
+			path = Exchange;
+			sourceTree = "<group>";
+		};
+		705974B2282A2A2A00DCDFA6 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				705974B4282A2A3800DCDFA6 /* HistoryViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		705974B6282A2B3E00DCDFA6 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				705974B7282A2B6500DCDFA6 /* StoreViewController.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		705974B9282A2C4F00DCDFA6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				705974BB282A2C7300DCDFA6 /* Const.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		705974BD282A2DED00DCDFA6 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				705974C0282A2F9B00DCDFA6 /* StoreTableViewCell.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		705974BE282A2DF300DCDFA6 /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exchange;
+			sourceTree = "<group>";
+		};
+		705974BF282A2DF800DCDFA6 /* History */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		B385546B092A3F7198B67734 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				813C4DB44BCD63C0251EBFA1 /* Pods-Enaco.debug.xcconfig */,
+				5DEBCEB660BA529E91D78105 /* Pods-Enaco.release.xcconfig */,
+				2AB0A541F8C5037C4681D191 /* Pods-Enaco-EnacoUITests.debug.xcconfig */,
+				78819E92C28A5D06A462899F /* Pods-Enaco-EnacoUITests.release.xcconfig */,
+				26FC9E9052F7288C0A2B02C8 /* Pods-EnacoTests.debug.xcconfig */,
+				B4B01AA55CA122EEC4B47E39 /* Pods-EnacoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7FE4CBD3AFED24BCD9F70C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC557F2D40917FF28A2884CD /* Pods_Enaco.framework */,
+				53EC09D7B3E49B08BD88EDFF /* Pods_Enaco_EnacoUITests.framework */,
+				1BA5899531B08683EA31DE67 /* Pods_EnacoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70597476282A275C00DCDFA6 /* Enaco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 705974A1282A275D00DCDFA6 /* Build configuration list for PBXNativeTarget "Enaco" */;
+			buildPhases = (
+				548413D6767613813A549A1D /* [CP] Check Pods Manifest.lock */,
+				70597473282A275C00DCDFA6 /* Sources */,
+				70597474282A275C00DCDFA6 /* Frameworks */,
+				70597475282A275C00DCDFA6 /* Resources */,
+				FFAB04DC599BDABD6D52B37C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Enaco;
+			productName = Enaco;
+			productReference = 70597477282A275C00DCDFA6 /* Enaco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7059748C282A275D00DCDFA6 /* EnacoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 705974A4282A275D00DCDFA6 /* Build configuration list for PBXNativeTarget "EnacoTests" */;
+			buildPhases = (
+				1F10478A624DFC6BF97F6CED /* [CP] Check Pods Manifest.lock */,
+				70597489282A275D00DCDFA6 /* Sources */,
+				7059748A282A275D00DCDFA6 /* Frameworks */,
+				7059748B282A275D00DCDFA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7059748F282A275D00DCDFA6 /* PBXTargetDependency */,
+			);
+			name = EnacoTests;
+			productName = EnacoTests;
+			productReference = 7059748D282A275D00DCDFA6 /* EnacoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70597496282A275D00DCDFA6 /* EnacoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 705974A7282A275D00DCDFA6 /* Build configuration list for PBXNativeTarget "EnacoUITests" */;
+			buildPhases = (
+				9B6F22107CFB29C340AC6D06 /* [CP] Check Pods Manifest.lock */,
+				70597493282A275D00DCDFA6 /* Sources */,
+				70597494282A275D00DCDFA6 /* Frameworks */,
+				70597495282A275D00DCDFA6 /* Resources */,
+				508DA5CEDEEA4CFF81063722 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70597499282A275D00DCDFA6 /* PBXTargetDependency */,
+			);
+			name = EnacoUITests;
+			productName = EnacoUITests;
+			productReference = 70597497282A275D00DCDFA6 /* EnacoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7059746F282A275C00DCDFA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					70597476282A275C00DCDFA6 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					7059748C282A275D00DCDFA6 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 70597476282A275C00DCDFA6;
+					};
+					70597496282A275D00DCDFA6 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 70597476282A275C00DCDFA6;
+					};
+				};
+			};
+			buildConfigurationList = 70597472282A275C00DCDFA6 /* Build configuration list for PBXProject "Enaco" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7059746E282A275C00DCDFA6;
+			productRefGroup = 70597478282A275C00DCDFA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70597476282A275C00DCDFA6 /* Enaco */,
+				7059748C282A275D00DCDFA6 /* EnacoTests */,
+				70597496282A275D00DCDFA6 /* EnacoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70597475282A275C00DCDFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70597487282A275D00DCDFA6 /* LaunchScreen.storyboard in Resources */,
+				70597484282A275D00DCDFA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7059748B282A275D00DCDFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70597495282A275D00DCDFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F10478A624DFC6BF97F6CED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnacoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		508DA5CEDEEA4CFF81063722 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Enaco-EnacoUITests/Pods-Enaco-EnacoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Enaco-EnacoUITests/Pods-Enaco-EnacoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Enaco-EnacoUITests/Pods-Enaco-EnacoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		548413D6767613813A549A1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Enaco-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B6F22107CFB29C340AC6D06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Enaco-EnacoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFAB04DC599BDABD6D52B37C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Enaco/Pods-Enaco-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Enaco/Pods-Enaco-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Enaco/Pods-Enaco-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70597473282A275C00DCDFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7059747B282A275C00DCDFA6 /* AppDelegate.swift in Sources */,
+				705974B1282A298C00DCDFA6 /* ExchangeViewController.swift in Sources */,
+				7059747D282A275C00DCDFA6 /* SceneDelegate.swift in Sources */,
+				705974C1282A2F9B00DCDFA6 /* StoreTableViewCell.swift in Sources */,
+				705974B5282A2A3800DCDFA6 /* HistoryViewController.swift in Sources */,
+				705974B8282A2B6500DCDFA6 /* StoreViewController.swift in Sources */,
+				705974AB282A27B200DCDFA6 /* MainViewController.swift in Sources */,
+				705974BC282A2C7300DCDFA6 /* Const.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70597489282A275D00DCDFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70597492282A275D00DCDFA6 /* EnacoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70597493282A275D00DCDFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7059749C282A275D00DCDFA6 /* EnacoUITests.swift in Sources */,
+				7059749E282A275D00DCDFA6 /* EnacoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7059748F282A275D00DCDFA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70597476282A275C00DCDFA6 /* Enaco */;
+			targetProxy = 7059748E282A275D00DCDFA6 /* PBXContainerItemProxy */;
+		};
+		70597499282A275D00DCDFA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70597476282A275C00DCDFA6 /* Enaco */;
+			targetProxy = 70597498282A275D00DCDFA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70597485282A275D00DCDFA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70597486282A275D00DCDFA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7059749F282A275D00DCDFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		705974A0282A275D00DCDFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		705974A2282A275D00DCDFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813C4DB44BCD63C0251EBFA1 /* Pods-Enaco.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X64MATB2CC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Enaco/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamsadan.Enaco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		705974A3282A275D00DCDFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DEBCEB660BA529E91D78105 /* Pods-Enaco.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X64MATB2CC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Enaco/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamsadan.Enaco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		705974A5282A275D00DCDFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26FC9E9052F7288C0A2B02C8 /* Pods-EnacoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X64MATB2CC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamsadan.EnacoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Enaco.app/Enaco";
+			};
+			name = Debug;
+		};
+		705974A6282A275D00DCDFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4B01AA55CA122EEC4B47E39 /* Pods-EnacoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X64MATB2CC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamsadan.EnacoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Enaco.app/Enaco";
+			};
+			name = Release;
+		};
+		705974A8282A275D00DCDFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB0A541F8C5037C4681D191 /* Pods-Enaco-EnacoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X64MATB2CC;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamsadan.EnacoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Enaco;
+			};
+			name = Debug;
+		};
+		705974A9282A275D00DCDFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78819E92C28A5D06A462899F /* Pods-Enaco-EnacoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X64MATB2CC;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamsadan.EnacoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Enaco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70597472282A275C00DCDFA6 /* Build configuration list for PBXProject "Enaco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7059749F282A275D00DCDFA6 /* Debug */,
+				705974A0282A275D00DCDFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		705974A1282A275D00DCDFA6 /* Build configuration list for PBXNativeTarget "Enaco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				705974A2282A275D00DCDFA6 /* Debug */,
+				705974A3282A275D00DCDFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		705974A4282A275D00DCDFA6 /* Build configuration list for PBXNativeTarget "EnacoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				705974A5282A275D00DCDFA6 /* Debug */,
+				705974A6282A275D00DCDFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		705974A7282A275D00DCDFA6 /* Build configuration list for PBXNativeTarget "EnacoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				705974A8282A275D00DCDFA6 /* Debug */,
+				705974A9282A275D00DCDFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7059746F282A275C00DCDFA6 /* Project object */;
+}
