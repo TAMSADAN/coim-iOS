@@ -9,6 +9,9 @@ target 'Enaco' do
   pod 'Then'
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'Alamofire'
+  pod 'LightweightCharts', '~> 3.8.0'
+  pod 'Charts'
 
   target 'EnacoTests' do
     inherit! :search_paths

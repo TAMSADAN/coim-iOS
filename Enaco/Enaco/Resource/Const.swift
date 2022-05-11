@@ -13,9 +13,9 @@ struct Const {
         static let largeTitle = UIFont.systemFont(ofSize: 34, weight: .semibold)
         static let largeTitle2 = UIFont.systemFont(ofSize: 30, weight: .semibold)
         
-        static let title1 = UIFont.systemFont(ofSize: 28, weight: .semibold)
+        static let title1 = UIFont.systemFont(ofSize: 28)
         static let title2 = UIFont.systemFont(ofSize: 22, weight: .semibold)
-        static let title3 = UIFont.systemFont(ofSize: 20, weight: .semibold)
+        static let title3 = UIFont.systemFont(ofSize: 20)
         static let headline = UIFont.systemFont(ofSize: 17, weight: .semibold)
         static let callout = UIFont.systemFont(ofSize: 16)
         static let subheadline = UIFont.systemFont(ofSize: 15)
@@ -27,11 +27,9 @@ struct Const {
         static let caption4 = UIFont.systemFont(ofSize: 9)
         static let caption5 = UIFont.systemFont(ofSize: 8)
         
-        static let itemHeadline = UIFont.systemFont(ofSize: 14, weight: .semibold)
-        static let itemTitle1 = UIFont.systemFont(ofSize: 15, weight: .semibold)
-        static let itemTitle2 = UIFont.systemFont(ofSize: 14)
+        static let itemTitle = UIFont.systemFont(ofSize: 16, weight: .semibold)
         static let itemBody = UIFont.systemFont(ofSize: 13)
-        static let itemFootnote = UIFont.systemFont(ofSize: 11)
+        static let itemHeadline = UIFont.systemFont(ofSize: 13, weight: .semibold)
     }
     
     struct Color {
